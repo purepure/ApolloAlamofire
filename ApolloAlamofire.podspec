@@ -23,11 +23,11 @@ This package bundles a `NetworkTransport` implementation that wraps Alamofire
 and solves known limitations of Apollo iOS library.
                        DESC
 
-  s.homepage         = 'https://github.com/graphql-community/ApolloAlamofire'
+  s.homepage         = 'https://github.com/purepure/ApolloAlamofire'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Max Desiatov' => 'max@desiatov.com' }
-  s.source           = { :git => 'https://github.com/graphql-community/ApolloAlamofire.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/purepure/ApolloAlamofire.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
@@ -40,6 +40,6 @@ and solves known limitations of Apollo iOS library.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'Alamofire', '~> 4.9.1'
-  s.dependency 'Apollo', '~> 0.19.0'
+  s.dependency 'Alamofire'
+  s.dependency 'Apollo'
 end
